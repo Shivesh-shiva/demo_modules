@@ -25,3 +25,7 @@ variable "sec1" {
 variable "sec2" {
 
 }
+
+variable "rgnamekv" {
+  
+}
