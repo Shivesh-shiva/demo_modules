@@ -1,6 +1,6 @@
 data "azurerm_key_vault" "kvault" {
   name                = var.kvname
-  resource_group_name = var.rgname
+  resource_group_name = var.rgnamekv
 }
 
 data "azurerm_key_vault_secret" "sec1" {
